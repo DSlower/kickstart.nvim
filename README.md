@@ -4,6 +4,8 @@
   https://github.com/nvim-lua/kickstart.nvim
 
 ### Installation guide
+
+  #### Config folders
   | OS | PATH |
   | :- | :--- |
   | Linux | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
