@@ -1,6 +1,6 @@
 # Neovim config
 
-### Kickstart Repositorie
+### Kickstart Repository
   https://github.com/nvim-lua/kickstart.nvim
 
 ### Installation guide
