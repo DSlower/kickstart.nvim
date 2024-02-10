@@ -13,21 +13,21 @@
   | Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
   | Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
 
-  Clone kickstart.nvim:
+  Clone my configs:
 
   - on Linux and Mac
     ```sh
-    git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+    git clone https://github.com/David-Avila/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
     ```
 
   - on Windows (cmd)
     ```
-    git clone https://github.com/nvim-lua/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
+    git clone https://github.com/David-Avila/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
     ```
 
   - on Windows (powershell)
     ```
-    git clone https://github.com/nvim-lua/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\ 
+    git clone https://github.com/David-Avila/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\ 
     ```
 
 ### New things added
