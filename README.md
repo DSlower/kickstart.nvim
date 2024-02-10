@@ -3,5 +3,8 @@
 ### Base Kickstart installation guide
   https://github.com/nvim-lua/kickstart.nvim
 
-### My custom config of kickstart neovim
-  No changes at this time
+### New things added
+  Nothing new at this time
+
+### Things removed
+  Nothing here yet
