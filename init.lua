@@ -45,6 +45,7 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "number"
+vim.opt.shiftwidth = 4
 
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
