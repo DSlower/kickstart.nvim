@@ -1,7 +1,32 @@
 # Neovim config
 
-### Base Kickstart installation guide
+### Kickstart Repositorie
   https://github.com/nvim-lua/kickstart.nvim
+
+### Installation guide
+  | OS | PATH |
+  | :- | :--- |
+  | Linux | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
+  | MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
+  | Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
+  | Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
+
+  Clone kickstart.nvim:
+
+  - on Linux and Mac
+    ```sh
+    git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+    ```
+
+  - on Windows (cmd)
+    ```
+    git clone https://github.com/nvim-lua/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
+    ```
+
+  - on Windows (powershell)
+    ```
+    git clone https://github.com/nvim-lua/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\ 
+    ```
 
 ### New things added
   Nothing new at this time
