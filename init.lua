@@ -307,7 +307,9 @@ vim.o.termguicolors = true
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- CUSTOM KEYMAPS --
-vim.keymap.set('n', '<C-s>', ':w!')
+vim.keymap.set('n', '<C-s>', ':w<CR>')
+vim.keymap.set('n', '<C-z>', ':q<CR>')
+vim.keymap.set('n', '<leader>e', ':Ex<CR>')
 
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
